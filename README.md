@@ -99,5 +99,12 @@ def sample(p):
 
 count = sc.parallelize(xrange(0, 100000)).map(sample) \
              .reduce(lambda a, b: a + b)
-print "Pi is roughly %f" % (4.0 * count / 100000)```
+print "Pi is roughly %f" % (4.0 * count / 100000)
+```
+另一種寫法
 
+```
+count = sc.parallelize(xrange(0, 1000000)).map(lambda p: 1 if (random.random()**2 + random.random()**2)<1 else 0) \
+             .reduce(lambda a, b: a + b)
+print "Pi is roughly %f" % (4.0 * count / 1000000)
+```
