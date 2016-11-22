@@ -1,7 +1,7 @@
 
 Reference:
-1. [http://www.mccarroll.net/blog/pyspark/index.html]
-2. [https://www.codementor.io/spark/tutorial/spark-python-rdd-basics]
+* [http://www.mccarroll.net/blog/pyspark/index.html]
+* [https://www.codementor.io/spark/tutorial/spark-python-rdd-basics]
 
 ```python
 array = [1,10,20]
