@@ -13,8 +13,8 @@ Example:
 ```
 
 ## Some References
-[Reference][https://www.codementor.io/spark/tutorial/spark-python-rdd-basics]
-[Reference][http://www.mccarroll.net/blog/pyspark/index.html]
+1. [https://www.codementor.io/spark/tutorial/spark-python-rdd-basics]
+2. [http://www.mccarroll.net/blog/pyspark/index.html]
 
 
 ```python
