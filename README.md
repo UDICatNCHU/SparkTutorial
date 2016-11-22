@@ -8,3 +8,5 @@ This is the data set used for The Third International Knowledge Discovery and Da
 Example:
   val data = Array(1, 2, 3, 4, 5)ddd
   val distData = sc.parallelize(data)
+
+[Reference][https://www.codementor.io/spark/tutorial/spark-python-rdd-basics]
